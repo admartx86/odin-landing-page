@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-size: 24px;
+}
+
+.header.button {
+    color: #3882F6;
+    background-color: #1F2937;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-size: 24px;
+    padding: 100px;
+    border: 10px;
+    margin: 100px;
+}
+
+.main .larger-font {
+    font-size: 48px;
+}
+
+.main .smaller-font {
+    font-size: 18px;
+}
+
+.content {
+    color: #1F2937;
+    background-color: #F9FAF8;
+}
+
+.quote {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+}
+
+.call-to-action {
+    color: #000000;
+    background-color: #FF00FF;
+}
+
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-size: 24px;
+}
