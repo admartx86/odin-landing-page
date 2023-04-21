@@ -1,10 +1,25 @@
+* {
+    font-family: arial;
+}
+
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: #F9FAF8;
     background-color: #1F2937;
     font-size: 24px;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .header.button {
@@ -20,13 +35,12 @@
     color: #F9FAF8;
     background-color: #1F2937;
     font-size: 24px;
-    padding: 100px;
-    border: 10px;
-    margin: 100px;
+    padding: 150px;
 }
 
 .main .larger-font {
     font-size: 48px;
+    font-weight: bold;
 }
 
 .main .smaller-font {
@@ -36,6 +50,29 @@
 .content {
     color: #1F2937;
     background-color: #F9FAF8;
+}
+
+.content-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-images {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.content-images img {
+    width: 300px;
+    height: 300px;
+    border: 20px solid;
+    border-radius: 20px;
+    border-color: #3882F6;
 }
 
 .quote {
