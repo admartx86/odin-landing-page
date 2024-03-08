@@ -1,1 +1,3 @@
-# odin-landing-page
+🔰 Practice
+
+An early HTML/CSS project.
